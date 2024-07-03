@@ -1,4 +1,4 @@
-# Automatic LoRA
+# Automode LoRA
 
 ## Abstract
 
@@ -30,7 +30,7 @@ raw_image
 
 ```
 
-![image-20240704020810384](/Users/republic/Library/Application%20Support/typora-user-images/image-20240704020810384.png)
+![image-20240704020810384](https://rotomlabs.net/_next/image?url=https%3A%2F%2Fstatic.rotomlabs.net%2Fimages%2Fofficial-artwork%2F0630-mandibuzz.webp&w=750&q=75)
 
 ##### Get Description
 
