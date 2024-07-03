@@ -1,0 +1,28 @@
+{
+    "class_word": "man",
+    "config_date_time": "2024-01-24T07-47-38",
+    "debug": false,
+    "flip_percent": 0.0,
+    "gpu": 0,
+    "learning_rate": 1e-06,
+    "max_training_steps": 2000,
+    "model_path": "C:\\\\Users\\\\Administrator\\\\Downloads\\\\sd-v1-4.ckpt",
+    "model_repo_id": "",
+    "project_config_filename": "2024-01-24T07-47-38-Dreambooth_wuyao-config.json",
+    "project_name": "Dreambooth_wuyao",
+    "regularization_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\regularization\\\\regular_me",
+    "save_every_x_steps": 1000,
+    "schema": 1,
+    "seed": 23,
+    "token": "wuyao",
+    "token_only": false,
+    "training_images": [
+        "\u5fae\u4fe1\u56fe\u7247_20240124153049.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240124153102.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240124153110.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240124153114.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240124153119.jpg"
+    ],
+    "training_images_count": 5,
+    "training_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\samples\\\\me"
+}
