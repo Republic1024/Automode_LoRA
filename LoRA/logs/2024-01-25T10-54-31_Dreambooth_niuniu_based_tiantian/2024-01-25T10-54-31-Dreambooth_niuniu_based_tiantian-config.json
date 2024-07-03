@@ -1,0 +1,30 @@
+{
+    "class_word": "rabbit",
+    "config_date_time": "2024-01-25T10-54-31",
+    "debug": false,
+    "flip_percent": 0.0,
+    "gpu": 0,
+    "learning_rate": 1e-06,
+    "max_training_steps": 2000,
+    "model_path": "C:\\Users\\Administrator\\Desktop\\Dreambooth-Stable-Diffusion-main\\trained_models\\2024-01-24T04-08-55_Dreambooth_dog_02000_steps_9_training_images_tiantian_token_rabbit_class_word.ckpt",
+    "model_repo_id": "",
+    "project_config_filename": "2024-01-25T10-54-31-Dreambooth_niuniu_based_tiantian-config.json",
+    "project_name": "Dreambooth_niuniu_based_tiantian",
+    "regularization_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\regularization\\\\regular_niuniu",
+    "save_every_x_steps": 1000,
+    "schema": 1,
+    "seed": 23,
+    "token": "niuniu",
+    "token_only": false,
+    "training_images": [
+        "\u5fae\u4fe1\u56fe\u7247_20240125184935.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240125184937.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240125184944.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240125185020.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_20240125185021.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_202401251850211.jpg",
+        "\u5fae\u4fe1\u56fe\u7247_202401251850212.jpg"
+    ],
+    "training_images_count": 7,
+    "training_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\samples\\\\niuniu"
+}

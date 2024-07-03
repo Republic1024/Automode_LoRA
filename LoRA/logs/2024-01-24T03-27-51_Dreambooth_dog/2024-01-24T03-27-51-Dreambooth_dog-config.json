@@ -1,0 +1,32 @@
+{
+    "class_word": "rabbit",
+    "config_date_time": "2024-01-24T03-27-51",
+    "debug": false,
+    "flip_percent": 0.0,
+    "gpu": 0,
+    "learning_rate": 1e-06,
+    "max_training_steps": 2000,
+    "model_path": "C:\\\\Users\\\\Administrator\\\\Downloads\\\\sd-v1-4.ckpt",
+    "model_repo_id": "",
+    "project_config_filename": "2024-01-24T03-27-51-Dreambooth_dog-config.json",
+    "project_name": "Dreambooth_dog",
+    "regularization_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\regularization\\\\regularization_rabbit",
+    "save_every_x_steps": 500,
+    "schema": 1,
+    "seed": 23,
+    "token": "tiantian",
+    "token_only": false,
+    "training_images": [
+        "0de3d2d3aca198368a47e4a01db839c8.jpg",
+        "5a6c633ebabffc6d1f881b88a453d3b4.jpg",
+        "75bc092ca3a0545ceca3d49eaf2264c6.jpg",
+        "949c01d7b3ceb6d4d7e95d46be2017d5.jpg",
+        "aaea91966096e8ae6c109fcfde211585.jpg",
+        "becfaad53da69a68a98c687ce5810a9e.jpg",
+        "c0a1d9a86f413fc04cb720d5052591b6.jpg",
+        "d50b3fbedbb8f47bd61c7665cddf2dd8.jpg",
+        "faae3d3fe4e958a403d1dd923c262d4d.jpg"
+    ],
+    "training_images_count": 9,
+    "training_images_folder_path": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\Dreambooth-Stable-Diffusion-main\\\\image\\\\samples\\\\rabbit"
+}
