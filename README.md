@@ -24,13 +24,13 @@ model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-capt
 
 ##### Load Your Image
 ```python
-img_url = 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/demo.jpg'
+img_url = 'https://rotomlabs.net/_next/image?url=https%3A%2F%2Fstatic.rotomlabs.net%2Fimages%2Fofficial-artwork%2F0630-mandibuzz.webp&w=750&q=75'
 raw_image = Image.open("../pokemonDataset/pokemon/a bird with a large beak and a large beak.jpg").convert('RGB')
 raw_image
 
 ```
 
-![image-20240704020810384](https://rotomlabs.net/_next/image?url=https%3A%2F%2Fstatic.rotomlabs.net%2Fimages%2Fofficial-artwork%2F0630-mandibuzz.webp&w=750&q=75)
+<img src="https://rotomlabs.net/_next/image?url=https%3A%2F%2Fstatic.rotomlabs.net%2Fimages%2Fofficial-artwork%2F0630-mandibuzz.webp&w=750&q=75" width="300" alt="image-20240704020810384">
 
 ##### Get Description
 
