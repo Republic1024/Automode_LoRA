@@ -1,0 +1,47 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-01-14T06:31:14.687711",
+    "startedAt": "2024-01-14T06:31:13.225518",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "imageCaptioning/me.ipynb",
+    "codePathLocal": null,
+    "root": "C:\\Users\\Administrator\\Desktop\\stablediffusion",
+    "host": "Republic-PC",
+    "username": "Republic",
+    "executable": "C:\\Users\\Administrator\\mambaforge\\envs\\stablediff21\\python.exe",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3400.0,
+        "min": 0.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 0.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.43847274780273,
+            "used": 446.31348419189453
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 4090",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 31.747356414794922
+    }
+}
