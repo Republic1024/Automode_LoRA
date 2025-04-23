@@ -63,7 +63,7 @@ print(processor.decode(out[0], skip_special_tokens=True))
 !python "main.py" --project_name "pokemon_lora" --training_model ".\\Downloads\\sd-v1-4.ckpt" --regularization_images ".\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_pokemon" --training_images ".\\Dreambooth-Stable-Diffusion-main\\image\\samples\\pokemon" --max_training_steps 2000 --class_word "pokemon" --token "pokemon" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
 ```
 
-![image-20250423145351918](/Users/republic/Library/Application%20Support/typora-user-images/image-20250423145351918.png)
+![1](/Users/republic/Downloads/Automode_LoRA/1.jpg)
 
 ## Cite
 
