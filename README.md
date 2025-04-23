@@ -49,10 +49,23 @@ print(processor.decode(out[0], skip_special_tokens=True))
 
 ## Run LoRA
 
+### Rabbit(Tian Tian) Dataset
+
 ```python
-!python "main.py" --project_name "Dreambooth_dog" --training_model ".\\Downloads\\sd-v1-4.ckpt" --regularization_images ".\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_rabbit" --training_images ".\\Dreambooth-Stable-Diffusion-main\\image\\samples\\rabbit" --max_training_steps 2000 --class_word "rabbit" --token "tiantian" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
+!python "main.py" --project_name "rabbit_lora" --training_model ".\\Downloads\\sd-v1-4.ckpt" --regularization_images ".\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_rabbit" --training_images ".\\Dreambooth-Stable-Diffusion-main\\image\\samples\\rabbit" --max_training_steps 2000 --class_word "rabbit" --token "tiantian" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
 ```
 
+
+
+### Pokemon Dataset
+
+```python
+!python "main.py" --project_name "pokemon_lora" --training_model ".\\Downloads\\sd-v1-4.ckpt" --regularization_images ".\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_pokemon" --training_images ".\\Dreambooth-Stable-Diffusion-main\\image\\samples\\pokemon" --max_training_steps 2000 --class_word "pokemon" --token "pokemon" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
+```
+
+![image-20250423145351918](/Users/republic/Library/Application%20Support/typora-user-images/image-20250423145351918.png)
+
 ## Cite
+
 Y. Wu and Y. Lu, "Automode: The Automatic LoRA Based on Stable Diffusion," 2024 IEEE 8th International Conference on Vision, Image and Signal Processing (ICVISP), Kunming, China, 2024, pp. 1-5, doi: 10.1109/ICVISP64524.2024.10959379. 
 
