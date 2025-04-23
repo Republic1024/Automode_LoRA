@@ -54,5 +54,5 @@ print(processor.decode(out[0], skip_special_tokens=True))
 ```
 
 ## Cite
-Y. Wu and Y. Lu, "Automode: The Automatic LoRA Based on Stable Diffusion," 2024 IEEE 8th International Conference on Vision, Image and Signal Processing (ICVISP), Kunming, China, 2024, pp. 1-5, doi: 10.1109/ICVISP64524.2024.10959379. keywords: {Training;Costs;Annotations;Image synthesis;Scalability;Pipelines;Manuals;Signal processing;Reliability;Faces;Stable diffusion;image captioning;auto-LoRA;fine-tuning;automatic annotation;customized content creation},
+Y. Wu and Y. Lu, "Automode: The Automatic LoRA Based on Stable Diffusion," 2024 IEEE 8th International Conference on Vision, Image and Signal Processing (ICVISP), Kunming, China, 2024, pp. 1-5, doi: 10.1109/ICVISP64524.2024.10959379. 
 
