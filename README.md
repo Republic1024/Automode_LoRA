@@ -3,7 +3,7 @@
 
 ## Abstract
 
-This method generates descriptions for target images, enabling an end-to-end annotation workflow that significantly reduces manual effort. By combining this automated annotation with the LoRA technique, our approach not only eliminates the need for manual annotation but also minimizes the number of parameters that require training. 
+Stable Diffusion is a powerful tool for image generation but encounters difficulties in generating images of untrained subjects, such as newly introduced customized content. Traditional fine-tuning methods often require the manual creation of datasets, followed by computationally expensive full-parameter training or low-rank adaptation, as seen in LoRA. While LoRA mitigates the cost associated with full-parameter training, traditional methods still face challenges regarding scalability and efficiency. To address these limitations, we introduce a novel automated annotation pipeline that integrates an advanced attention-based image captioning system with LoRA-based fine-tuning. Our approach not only automates the annotation process but also optimizes training by reducing the parameter space, leading to more efficient and scalable fine-tuning. We validated our approach using a custom dataset of newly introduced customized content, demonstrating significant improvements in both annotation efficiency and image generation quality. This work extends the capabilities of automated fine-tuning in generative models, providing a reliable solution for artificial content creation.
 
 ## Run Image Captioning
 
