@@ -50,7 +50,7 @@ print(processor.decode(out[0], skip_special_tokens=True))
 ## Run LoRA
 
 ```python
-!python "main.py" --project_name "Dreambooth_dog" --training_model "C:\\Users\\Administrator\\Downloads\\sd-v1-4.ckpt" --regularization_images "C:\\Users\\Administrator\\Desktop\\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_rabbit" --training_images "C:\\Users\\Administrator\\Desktop\\Dreambooth-Stable-Diffusion-main\\image\\samples\\rabbit" --max_training_steps 2000 --class_word "rabbit" --token "tiantian" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
+!python "main.py" --project_name "Dreambooth_dog" --training_model ".\\Downloads\\sd-v1-4.ckpt" --regularization_images ".\Dreambooth-Stable-Diffusion-main\\image\\regularization\\regularization_rabbit" --training_images ".\\Dreambooth-Stable-Diffusion-main\\image\\samples\\rabbit" --max_training_steps 2000 --class_word "rabbit" --token "tiantian" --flip_p 0 --learning_rate 1.0e-06 --save_every_x_steps 500
 ```
 
 ## Cite
